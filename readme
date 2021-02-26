@@ -1,0 +1,8 @@
+- HangFix src code is in the src/
+- Needed Jar files are in lib/; you can add extra jar if you want to analysis other applications
+- All scripts are in the script/
+ - running triggerbug_XXXX.sh, you can trigger the corresponding bug
+ - running instrument_XXXX.sh, you can instrument the buggy code using HangFix and generate new bytecode
+ - running testpatch_XXXX.sh, you can test whether hang or crash happens or not using the patched bytecode.
+ - running viewJimple_XXX.sh, you can convert Java bytecode to Jimple(IR) code for easy reading. This is optional, which can help to manual check whether the instrumentation is correct or not.
+- If you need to test other applications, you can write the same trigger_XXX.sh, instrument_XXX.sh, and testpatch_XXX.sh scripts. Remember to add the corresponding conf files in the confFiles/

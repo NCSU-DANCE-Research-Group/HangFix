@@ -1,0 +1,3 @@
+output=/home/ting/DataLoopBugDetection/workspace_java/testInstrumentJavaClass/script/output_cassandra7330/
+prefix=org.apache.
+package=org.apache.cassandra.*

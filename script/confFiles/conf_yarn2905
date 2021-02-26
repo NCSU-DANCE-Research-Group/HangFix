@@ -1,0 +1,3 @@
+output=/home/ting/DataLoopBugDetection/workspace_java/testInstrumentJavaClass/script/output_yarn2905/
+prefix=org.apache.hadoop.
+package=org.apache.hadoop.*

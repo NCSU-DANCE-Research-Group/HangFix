@@ -1,0 +1,3 @@
+output=/home/ting/DataLoopBugDetection/workspace_java/testInstrumentJavaClass/script/output_kafka6271/
+prefix=org.apache.hadoop.
+package=org.apache.hadoop.*

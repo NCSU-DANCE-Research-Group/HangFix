@@ -1,0 +1,8 @@
+output=/home/ting/DataLoopBugDetection/workspace_java/testInstrumentJavaClass/script/output_hadoop15088/
+prefix=org.apache.hadoop.
+package=org.apache.hadoop.*
+appIOClassPrefix=org.apache.hadoop.fs.
+appIOClassPrefix=org.apache.hadoop.io.
+appIOClassFullName=org.apache.hadoop.mapreduce.lib.input.CombineFileInputFormat$OneBlockInfo
+appIOClassFullName=org.apache.hadoop.mapreduce.lib.input.CombineFileInputFormat$OneFileInfo
+appIOClassFullName=org.apache.hadoop.hdfs.server.namenode.LeaseManager$Lease
